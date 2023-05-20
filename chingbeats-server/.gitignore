@@ -11,11 +11,11 @@
 .sts4-cache
 target/
 .DS_Store
-../img/
+#../img/
 ../song/
-img/
+#img/
 song/
-logs/
+#logs/
 
 ### IntelliJ IDEA ###
 .idea
