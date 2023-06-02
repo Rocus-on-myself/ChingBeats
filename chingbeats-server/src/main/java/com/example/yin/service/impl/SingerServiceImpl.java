@@ -3,6 +3,7 @@ package com.example.yin.service.impl;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.example.yin.common.R;
+import com.example.yin.constant.Constants;
 import com.example.yin.mapper.SingerMapper;
 import com.example.yin.model.domain.Singer;
 import com.example.yin.model.request.SingerRequest;
@@ -35,8 +36,12 @@ public class SingerServiceImpl extends ServiceImpl<SingerMapper, Singer> impleme
     @Override
     public R updateSingerPic(MultipartFile avatorFile, int id) {
         String fileName = System.currentTimeMillis() + avatorFile.getOriginalFilename();
-        String filePath = System.getProperty("user.dir") + System.getProperty("file.separator") + "img"
+//        String filePath = System.getProperty("user.dir") + System.getProperty("file.separator") + "img"
+//                + System.getProperty("file.separator") + "singerPic";
+
+        String filePath = Constants.ASSETS_PATH + System.getProperty("file.separator") + "img"
                 + System.getProperty("file.separator") + "singerPic";
+
         File file1 = new File(filePath);
         if (!file1.exists()) {
             file1.mkdir();
