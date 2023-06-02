@@ -49,7 +49,6 @@ public class SongListController {
     @PostMapping("/songList/update")
     public R updateSongListMsg(@RequestBody SongListRequest updateSongListRequest) {
         return songListService.updateSongListMsg(updateSongListRequest);
-
     }
 
     // 更新歌单图片

@@ -3,10 +3,12 @@ package com.example.yin.service.impl;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.example.yin.common.R;
+import com.example.yin.constant.Constants;
 import com.example.yin.mapper.SongMapper;
 import com.example.yin.model.domain.Song;
 import com.example.yin.model.request.SongRequest;
 import com.example.yin.service.SongService;
+import lombok.val;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -33,7 +35,9 @@ public class SongServiceImpl extends ServiceImpl<SongMapper, Song> implements So
         BeanUtils.copyProperties(addSongRequest, song);
         String pic = "/img/songPic/tubiao.jpg";
         String fileName = mpfile.getOriginalFilename();
-        String filePath = System.getProperty("user.dir") + System.getProperty("file.separator") + "song";
+//        String filePath = System.getProperty("user.dir") + System.getProperty("file.separator") + "song";
+        String filePath = Constants.ASSETS_PATH + System.getProperty("file.separator") + "song";
+
         File file1 = new File(filePath);
         if (!file1.exists()) {
             if (!file1.mkdir()) {
@@ -41,6 +45,8 @@ public class SongServiceImpl extends ServiceImpl<SongMapper, Song> implements So
             }
         }
         File dest = new File(filePath + System.getProperty("file.separator") + fileName);
+
+
         String storeUrlPath = "/song/" + fileName;
         try {
             mpfile.transferTo(dest);
@@ -51,6 +57,7 @@ public class SongServiceImpl extends ServiceImpl<SongMapper, Song> implements So
         song.setUpdateTime(new Date());
         song.setPic(pic);
         song.setUrl(storeUrlPath);
+
         if (songMapper.insert(song) > 0) {
             return R.success("上传成功", storeUrlPath);
         } else {
@@ -72,7 +79,9 @@ public class SongServiceImpl extends ServiceImpl<SongMapper, Song> implements So
     @Override
     public R updateSongUrl(MultipartFile urlFile, int id) {
         String fileName = urlFile.getOriginalFilename();
-        String filePath = System.getProperty("user.dir") + System.getProperty("file.separator") + "song";
+//        String filePath = System.getProperty("user.dir") + System.getProperty("file.separator") + "song";
+
+        String filePath = Constants.ASSETS_PATH + System.getProperty("file.separator") + "song";
         File file1 = new File(filePath);
         if (!file1.exists()) {
             if (!file1.mkdir()) {
@@ -99,7 +108,12 @@ public class SongServiceImpl extends ServiceImpl<SongMapper, Song> implements So
     @Override
     public R updateSongPic(MultipartFile urlFile, int id) {
         String fileName = System.currentTimeMillis() + urlFile.getOriginalFilename();
-        String filePath = System.getProperty("user.dir") + System.getProperty("file.separator") + "img" + System.getProperty("file.separator") + "songPic";
+//        String filePath = System.getProperty("user.dir") + System.getProperty("file.separator") + "img"
+//                + System.getProperty("file.separator") + "songPic";
+
+        String filePath = Constants.ASSETS_PATH + System.getProperty("file.separator") + "img"
+                + System.getProperty("file.separator") + "songPic";
+
         File file1 = new File(filePath);
         if (!file1.exists()) {
             if (!file1.mkdir()) {
@@ -126,6 +140,16 @@ public class SongServiceImpl extends ServiceImpl<SongMapper, Song> implements So
 
     @Override
     public R deleteSong(Integer id) {
+
+        String url = Constants.ASSETS_PATH + System.getProperty("file.separator") +songMapper.selectById(id).getUrl().replaceFirst("/", "").replaceAll("/", "\\\\");
+
+        File file = new File(url);
+//        System.out.println("打印："+url);
+        // 路径为文件且不为空则进行删除
+        if (file.isFile() && file.exists()) {
+            file.delete();
+        }
+
         if (songMapper.deleteById(id) > 0) {
             return R.success("删除成功");
         } else {

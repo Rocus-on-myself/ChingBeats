@@ -1,0 +1,237 @@
+2023-06-03 02:01:43 WARN [org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver]: Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'consumerId' for method parameter type Long is present but converted to null]
+2023-06-03 02:55:40 INFO [com.example.yin.ChingBeatsApplication]: Starting ChingBeatsApplication using Java 1.8.0_152 on LAPTOP-NIO7MIN1 with PID 19676 (E:\40000-Programming Space\46000-Git\chingbeats\chingbeats-server\target\classes started by ASUS in E:\40000-Programming Space\46000-Git\chingbeats)
+2023-06-03 02:55:40 INFO [com.example.yin.ChingBeatsApplication]: The following profiles are active: dev
+2023-06-03 02:55:40 INFO [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor]: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-06-03 02:55:40 INFO [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor]: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-06-03 02:55:41 INFO [org.springframework.data.repository.config.RepositoryConfigurationDelegate]: Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-06-03 02:55:41 INFO [org.springframework.data.repository.config.RepositoryConfigurationDelegate]: Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-06-03 02:55:41 INFO [org.springframework.data.repository.config.RepositoryConfigurationDelegate]: Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+2023-06-03 02:55:43 INFO [org.springframework.boot.web.embedded.tomcat.TomcatWebServer]: Tomcat initialized with port(s): 8888 (http)
+2023-06-03 02:55:43 INFO [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext]: Root WebApplicationContext: initialization completed in 2542 ms
+2023-06-03 02:55:43 INFO [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer]: LiveReload server is running on port 35729
+2023-06-03 02:55:43 INFO [org.springframework.boot.web.embedded.tomcat.TomcatWebServer]: Tomcat started on port(s): 8888 (http) with context path ''
+2023-06-03 02:55:43 INFO [com.example.yin.ChingBeatsApplication]: Started ChingBeatsApplication in 3.729 seconds (JVM running for 5.114)
+2023-06-03 02:56:47 INFO [org.springframework.web.servlet.DispatcherServlet]: Initializing Servlet 'dispatcherServlet'
+2023-06-03 02:56:47 INFO [org.springframework.web.servlet.DispatcherServlet]: Completed initialization in 1 ms
+2023-06-03 02:57:30 INFO [com.zaxxer.hikari.HikariDataSource]: HikariPool-1 - Starting...
+2023-06-03 02:57:30 INFO [com.zaxxer.hikari.HikariDataSource]: HikariPool-1 - Start completed.
+2023-06-03 03:01:16 INFO [com.example.yin.ChingBeatsApplication]: Starting ChingBeatsApplication using Java 1.8.0_152 on LAPTOP-NIO7MIN1 with PID 10200 (E:\40000-Programming Space\46000-Git\chingbeats\chingbeats-server\target\classes started by ASUS in E:\40000-Programming Space\46000-Git\chingbeats)
+2023-06-03 03:01:16 INFO [com.example.yin.ChingBeatsApplication]: The following profiles are active: dev
+2023-06-03 03:01:16 INFO [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor]: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-06-03 03:01:16 INFO [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor]: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-06-03 03:01:17 INFO [org.springframework.data.repository.config.RepositoryConfigurationDelegate]: Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-06-03 03:01:17 INFO [org.springframework.data.repository.config.RepositoryConfigurationDelegate]: Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-06-03 03:01:17 INFO [org.springframework.data.repository.config.RepositoryConfigurationDelegate]: Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+2023-06-03 03:01:18 INFO [org.springframework.boot.web.embedded.tomcat.TomcatWebServer]: Tomcat initialized with port(s): 8888 (http)
+2023-06-03 03:01:19 INFO [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext]: Root WebApplicationContext: initialization completed in 2373 ms
+2023-06-03 03:01:19 INFO [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer]: LiveReload server is running on port 35729
+2023-06-03 03:01:19 INFO [org.springframework.boot.web.embedded.tomcat.TomcatWebServer]: Tomcat started on port(s): 8888 (http) with context path ''
+2023-06-03 03:01:19 INFO [com.example.yin.ChingBeatsApplication]: Started ChingBeatsApplication in 3.469 seconds (JVM running for 4.701)
+2023-06-03 03:02:01 INFO [org.springframework.web.servlet.DispatcherServlet]: Initializing Servlet 'dispatcherServlet'
+2023-06-03 03:02:01 INFO [org.springframework.web.servlet.DispatcherServlet]: Completed initialization in 1 ms
+2023-06-03 03:02:01 INFO [com.zaxxer.hikari.HikariDataSource]: HikariPool-1 - Starting...
+2023-06-03 03:02:01 INFO [com.zaxxer.hikari.HikariDataSource]: HikariPool-1 - Start completed.
+2023-06-03 04:02:26 INFO [com.example.yin.ChingBeatsApplication]: Starting ChingBeatsApplication using Java 1.8.0_152 on LAPTOP-NIO7MIN1 with PID 23516 (E:\40000-Programming Space\46000-Git\chingbeats\chingbeats-server\target\classes started by ASUS in E:\40000-Programming Space\46000-Git\chingbeats)
+2023-06-03 04:02:26 INFO [com.example.yin.ChingBeatsApplication]: The following profiles are active: dev
+2023-06-03 04:02:26 INFO [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor]: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-06-03 04:02:26 INFO [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor]: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-06-03 04:02:27 INFO [org.springframework.data.repository.config.RepositoryConfigurationDelegate]: Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-06-03 04:02:27 INFO [org.springframework.data.repository.config.RepositoryConfigurationDelegate]: Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-06-03 04:02:27 INFO [org.springframework.data.repository.config.RepositoryConfigurationDelegate]: Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+2023-06-03 04:02:29 INFO [org.springframework.boot.web.embedded.tomcat.TomcatWebServer]: Tomcat initialized with port(s): 8888 (http)
+2023-06-03 04:02:29 INFO [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext]: Root WebApplicationContext: initialization completed in 2503 ms
+2023-06-03 04:02:29 INFO [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer]: LiveReload server is running on port 35729
+2023-06-03 04:02:30 INFO [org.springframework.boot.web.embedded.tomcat.TomcatWebServer]: Tomcat started on port(s): 8888 (http) with context path ''
+2023-06-03 04:02:30 INFO [com.example.yin.ChingBeatsApplication]: Started ChingBeatsApplication in 3.654 seconds (JVM running for 4.905)
+2023-06-03 04:02:37 INFO [org.springframework.web.servlet.DispatcherServlet]: Initializing Servlet 'dispatcherServlet'
+2023-06-03 04:02:37 INFO [org.springframework.web.servlet.DispatcherServlet]: Completed initialization in 0 ms
+2023-06-03 04:02:46 INFO [com.zaxxer.hikari.HikariDataSource]: HikariPool-1 - Starting...
+2023-06-03 04:02:47 INFO [com.zaxxer.hikari.HikariDataSource]: HikariPool-1 - Start completed.
+2023-06-03 04:03:49 INFO [com.example.yin.ChingBeatsApplication]: Starting ChingBeatsApplication using Java 1.8.0_152 on LAPTOP-NIO7MIN1 with PID 22580 (E:\40000-Programming Space\46000-Git\chingbeats\chingbeats-server\target\classes started by ASUS in E:\40000-Programming Space\46000-Git\chingbeats)
+2023-06-03 04:03:49 INFO [com.example.yin.ChingBeatsApplication]: The following profiles are active: dev
+2023-06-03 04:03:49 INFO [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor]: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-06-03 04:03:49 INFO [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor]: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-06-03 04:03:50 INFO [org.springframework.data.repository.config.RepositoryConfigurationDelegate]: Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-06-03 04:03:50 INFO [org.springframework.data.repository.config.RepositoryConfigurationDelegate]: Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-06-03 04:03:50 INFO [org.springframework.data.repository.config.RepositoryConfigurationDelegate]: Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+2023-06-03 04:03:52 INFO [org.springframework.boot.web.embedded.tomcat.TomcatWebServer]: Tomcat initialized with port(s): 8888 (http)
+2023-06-03 04:03:52 INFO [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext]: Root WebApplicationContext: initialization completed in 2538 ms
+2023-06-03 04:03:53 INFO [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer]: LiveReload server is running on port 35729
+2023-06-03 04:03:53 INFO [org.springframework.boot.web.embedded.tomcat.TomcatWebServer]: Tomcat started on port(s): 8888 (http) with context path ''
+2023-06-03 04:03:53 INFO [com.example.yin.ChingBeatsApplication]: Started ChingBeatsApplication in 4.043 seconds (JVM running for 5.783)
+2023-06-03 04:04:10 INFO [org.springframework.web.servlet.DispatcherServlet]: Initializing Servlet 'dispatcherServlet'
+2023-06-03 04:04:10 INFO [org.springframework.web.servlet.DispatcherServlet]: Completed initialization in 1 ms
+2023-06-03 04:04:13 INFO [com.zaxxer.hikari.HikariDataSource]: HikariPool-1 - Starting...
+2023-06-03 04:04:13 INFO [com.zaxxer.hikari.HikariDataSource]: HikariPool-1 - Start completed.
+2023-06-03 04:06:58 INFO [com.example.yin.ChingBeatsApplication]: Starting ChingBeatsApplication using Java 1.8.0_152 on LAPTOP-NIO7MIN1 with PID 22664 (E:\40000-Programming Space\46000-Git\chingbeats\chingbeats-server\target\classes started by ASUS in E:\40000-Programming Space\46000-Git\chingbeats)
+2023-06-03 04:06:58 INFO [com.example.yin.ChingBeatsApplication]: The following profiles are active: dev
+2023-06-03 04:06:58 INFO [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor]: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-06-03 04:06:58 INFO [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor]: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-06-03 04:06:58 INFO [org.springframework.data.repository.config.RepositoryConfigurationDelegate]: Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-06-03 04:06:58 INFO [org.springframework.data.repository.config.RepositoryConfigurationDelegate]: Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-06-03 04:06:58 INFO [org.springframework.data.repository.config.RepositoryConfigurationDelegate]: Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
+2023-06-03 04:07:00 INFO [org.springframework.boot.web.embedded.tomcat.TomcatWebServer]: Tomcat initialized with port(s): 8888 (http)
+2023-06-03 04:07:00 INFO [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext]: Root WebApplicationContext: initialization completed in 2486 ms
+2023-06-03 04:07:01 INFO [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer]: LiveReload server is running on port 35729
+2023-06-03 04:07:01 INFO [org.springframework.boot.web.embedded.tomcat.TomcatWebServer]: Tomcat started on port(s): 8888 (http) with context path ''
+2023-06-03 04:07:01 INFO [com.example.yin.ChingBeatsApplication]: Started ChingBeatsApplication in 3.656 seconds (JVM running for 4.902)
+2023-06-03 04:07:01 INFO [org.springframework.web.servlet.DispatcherServlet]: Initializing Servlet 'dispatcherServlet'
+2023-06-03 04:07:01 INFO [org.springframework.web.servlet.DispatcherServlet]: Completed initialization in 2 ms
+2023-06-03 04:07:01 INFO [com.zaxxer.hikari.HikariDataSource]: HikariPool-1 - Starting...
+2023-06-03 04:07:01 INFO [com.zaxxer.hikari.HikariDataSource]: HikariPool-1 - Start completed.
+2023-06-03 04:08:30 INFO [com.example.yin.ChingBeatsApplication]: Starting ChingBeatsApplication using Java 1.8.0_152 on LAPTOP-NIO7MIN1 with PID 23460 (E:\40000-Programming Space\46000-Git\chingbeats\chingbeats-server\target\classes started by ASUS in E:\40000-Programming Space\46000-Git\chingbeats)
+2023-06-03 04:08:30 INFO [com.example.yin.ChingBeatsApplication]: The following profiles are active: dev
+2023-06-03 04:08:30 INFO [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor]: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-06-03 04:08:30 INFO [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor]: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-06-03 04:08:31 INFO [org.springframework.data.repository.config.RepositoryConfigurationDelegate]: Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-06-03 04:08:31 INFO [org.springframework.data.repository.config.RepositoryConfigurationDelegate]: Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-06-03 04:08:31 INFO [org.springframework.data.repository.config.RepositoryConfigurationDelegate]: Finished Spring Data repository scanning in 14 ms. Found 0 Redis repository interfaces.
+2023-06-03 04:08:32 INFO [org.springframework.boot.web.embedded.tomcat.TomcatWebServer]: Tomcat initialized with port(s): 8888 (http)
+2023-06-03 04:08:32 INFO [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext]: Root WebApplicationContext: initialization completed in 2476 ms
+2023-06-03 04:08:33 INFO [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer]: LiveReload server is running on port 35729
+2023-06-03 04:08:33 INFO [org.springframework.boot.web.embedded.tomcat.TomcatWebServer]: Tomcat started on port(s): 8888 (http) with context path ''
+2023-06-03 04:08:33 INFO [com.example.yin.ChingBeatsApplication]: Started ChingBeatsApplication in 3.634 seconds (JVM running for 4.874)
+2023-06-03 04:08:40 INFO [org.springframework.web.servlet.DispatcherServlet]: Initializing Servlet 'dispatcherServlet'
+2023-06-03 04:08:40 INFO [org.springframework.web.servlet.DispatcherServlet]: Completed initialization in 1 ms
+2023-06-03 04:08:40 INFO [com.zaxxer.hikari.HikariDataSource]: HikariPool-1 - Starting...
+2023-06-03 04:08:40 INFO [com.zaxxer.hikari.HikariDataSource]: HikariPool-1 - Start completed.
+2023-06-03 04:25:20 INFO [com.example.yin.ChingBeatsApplication]: Starting ChingBeatsApplication using Java 1.8.0_152 on LAPTOP-NIO7MIN1 with PID 22984 (E:\40000-Programming Space\46000-Git\chingbeats\chingbeats-server\target\classes started by ASUS in E:\40000-Programming Space\46000-Git\chingbeats)
+2023-06-03 04:25:20 INFO [com.example.yin.ChingBeatsApplication]: The following profiles are active: dev
+2023-06-03 04:25:20 INFO [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor]: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-06-03 04:25:20 INFO [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor]: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-06-03 04:25:21 INFO [org.springframework.data.repository.config.RepositoryConfigurationDelegate]: Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-06-03 04:25:21 INFO [org.springframework.data.repository.config.RepositoryConfigurationDelegate]: Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-06-03 04:25:21 INFO [org.springframework.data.repository.config.RepositoryConfigurationDelegate]: Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+2023-06-03 04:25:23 INFO [org.springframework.boot.web.embedded.tomcat.TomcatWebServer]: Tomcat initialized with port(s): 8888 (http)
+2023-06-03 04:25:23 INFO [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext]: Root WebApplicationContext: initialization completed in 2474 ms
+2023-06-03 04:25:23 INFO [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer]: LiveReload server is running on port 35729
+2023-06-03 04:25:23 INFO [org.springframework.boot.web.embedded.tomcat.TomcatWebServer]: Tomcat started on port(s): 8888 (http) with context path ''
+2023-06-03 04:25:23 INFO [com.example.yin.ChingBeatsApplication]: Started ChingBeatsApplication in 3.572 seconds (JVM running for 4.769)
+2023-06-03 04:25:33 INFO [org.springframework.web.servlet.DispatcherServlet]: Initializing Servlet 'dispatcherServlet'
+2023-06-03 04:25:33 INFO [org.springframework.web.servlet.DispatcherServlet]: Completed initialization in 1 ms
+2023-06-03 04:25:34 INFO [com.zaxxer.hikari.HikariDataSource]: HikariPool-1 - Starting...
+2023-06-03 04:25:34 INFO [com.zaxxer.hikari.HikariDataSource]: HikariPool-1 - Start completed.
+2023-06-03 04:31:23 INFO [com.example.yin.ChingBeatsApplication]: Starting ChingBeatsApplication using Java 1.8.0_152 on LAPTOP-NIO7MIN1 with PID 16632 (E:\40000-Programming Space\46000-Git\chingbeats\chingbeats-server\target\classes started by ASUS in E:\40000-Programming Space\46000-Git\chingbeats)
+2023-06-03 04:31:23 INFO [com.example.yin.ChingBeatsApplication]: The following profiles are active: dev
+2023-06-03 04:31:23 INFO [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor]: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-06-03 04:31:23 INFO [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor]: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-06-03 04:31:24 INFO [org.springframework.data.repository.config.RepositoryConfigurationDelegate]: Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-06-03 04:31:24 INFO [org.springframework.data.repository.config.RepositoryConfigurationDelegate]: Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-06-03 04:31:24 INFO [org.springframework.data.repository.config.RepositoryConfigurationDelegate]: Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+2023-06-03 04:31:26 INFO [org.springframework.boot.web.embedded.tomcat.TomcatWebServer]: Tomcat initialized with port(s): 8888 (http)
+2023-06-03 04:31:26 INFO [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext]: Root WebApplicationContext: initialization completed in 2471 ms
+2023-06-03 04:31:27 INFO [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer]: LiveReload server is running on port 35729
+2023-06-03 04:31:27 INFO [org.springframework.boot.web.embedded.tomcat.TomcatWebServer]: Tomcat started on port(s): 8888 (http) with context path ''
+2023-06-03 04:31:27 INFO [com.example.yin.ChingBeatsApplication]: Started ChingBeatsApplication in 3.567 seconds (JVM running for 4.728)
+2023-06-03 04:31:51 INFO [org.springframework.web.servlet.DispatcherServlet]: Initializing Servlet 'dispatcherServlet'
+2023-06-03 04:31:51 INFO [org.springframework.web.servlet.DispatcherServlet]: Completed initialization in 1 ms
+2023-06-03 04:31:52 INFO [com.zaxxer.hikari.HikariDataSource]: HikariPool-1 - Starting...
+2023-06-03 04:31:52 INFO [com.zaxxer.hikari.HikariDataSource]: HikariPool-1 - Start completed.
+2023-06-03 04:34:38 INFO [com.example.yin.ChingBeatsApplication]: Starting ChingBeatsApplication using Java 1.8.0_152 on LAPTOP-NIO7MIN1 with PID 7700 (E:\40000-Programming Space\46000-Git\chingbeats\chingbeats-server\target\classes started by ASUS in E:\40000-Programming Space\46000-Git\chingbeats)
+2023-06-03 04:34:38 INFO [com.example.yin.ChingBeatsApplication]: The following profiles are active: dev
+2023-06-03 04:34:38 INFO [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor]: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-06-03 04:34:38 INFO [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor]: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-06-03 04:34:39 INFO [org.springframework.data.repository.config.RepositoryConfigurationDelegate]: Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-06-03 04:34:39 INFO [org.springframework.data.repository.config.RepositoryConfigurationDelegate]: Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-06-03 04:34:39 INFO [org.springframework.data.repository.config.RepositoryConfigurationDelegate]: Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+2023-06-03 04:34:41 INFO [org.springframework.boot.web.embedded.tomcat.TomcatWebServer]: Tomcat initialized with port(s): 8888 (http)
+2023-06-03 04:34:41 INFO [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext]: Root WebApplicationContext: initialization completed in 2585 ms
+2023-06-03 04:34:42 INFO [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer]: LiveReload server is running on port 35729
+2023-06-03 04:34:42 INFO [org.springframework.boot.web.embedded.tomcat.TomcatWebServer]: Tomcat started on port(s): 8888 (http) with context path ''
+2023-06-03 04:34:42 INFO [com.example.yin.ChingBeatsApplication]: Started ChingBeatsApplication in 3.755 seconds (JVM running for 4.967)
+2023-06-03 04:34:57 INFO [org.springframework.web.servlet.DispatcherServlet]: Initializing Servlet 'dispatcherServlet'
+2023-06-03 04:34:57 INFO [org.springframework.web.servlet.DispatcherServlet]: Completed initialization in 1 ms
+2023-06-03 04:34:57 INFO [com.zaxxer.hikari.HikariDataSource]: HikariPool-1 - Starting...
+2023-06-03 04:34:57 INFO [com.zaxxer.hikari.HikariDataSource]: HikariPool-1 - Start completed.
+2023-06-03 04:36:06 INFO [com.example.yin.ChingBeatsApplication]: Starting ChingBeatsApplication using Java 1.8.0_152 on LAPTOP-NIO7MIN1 with PID 22636 (E:\40000-Programming Space\46000-Git\chingbeats\chingbeats-server\target\classes started by ASUS in E:\40000-Programming Space\46000-Git\chingbeats)
+2023-06-03 04:36:06 INFO [com.example.yin.ChingBeatsApplication]: The following profiles are active: dev
+2023-06-03 04:36:07 INFO [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor]: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-06-03 04:36:07 INFO [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor]: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-06-03 04:36:07 INFO [org.springframework.data.repository.config.RepositoryConfigurationDelegate]: Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-06-03 04:36:07 INFO [org.springframework.data.repository.config.RepositoryConfigurationDelegate]: Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-06-03 04:36:07 INFO [org.springframework.data.repository.config.RepositoryConfigurationDelegate]: Finished Spring Data repository scanning in 15 ms. Found 0 Redis repository interfaces.
+2023-06-03 04:36:09 INFO [org.springframework.boot.web.embedded.tomcat.TomcatWebServer]: Tomcat initialized with port(s): 8888 (http)
+2023-06-03 04:36:09 INFO [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext]: Root WebApplicationContext: initialization completed in 2549 ms
+2023-06-03 04:36:10 INFO [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer]: LiveReload server is running on port 35729
+2023-06-03 04:36:10 INFO [org.springframework.boot.web.embedded.tomcat.TomcatWebServer]: Tomcat started on port(s): 8888 (http) with context path ''
+2023-06-03 04:36:10 INFO [com.example.yin.ChingBeatsApplication]: Started ChingBeatsApplication in 3.806 seconds (JVM running for 5.027)
+2023-06-03 04:36:17 INFO [org.springframework.web.servlet.DispatcherServlet]: Initializing Servlet 'dispatcherServlet'
+2023-06-03 04:36:17 INFO [org.springframework.web.servlet.DispatcherServlet]: Completed initialization in 1 ms
+2023-06-03 04:36:17 INFO [com.zaxxer.hikari.HikariDataSource]: HikariPool-1 - Starting...
+2023-06-03 04:36:18 INFO [com.zaxxer.hikari.HikariDataSource]: HikariPool-1 - Start completed.
+2023-06-03 04:37:35 INFO [com.example.yin.ChingBeatsApplication]: Starting ChingBeatsApplication using Java 1.8.0_152 on LAPTOP-NIO7MIN1 with PID 17424 (E:\40000-Programming Space\46000-Git\chingbeats\chingbeats-server\target\classes started by ASUS in E:\40000-Programming Space\46000-Git\chingbeats)
+2023-06-03 04:37:35 INFO [com.example.yin.ChingBeatsApplication]: The following profiles are active: dev
+2023-06-03 04:37:35 INFO [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor]: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-06-03 04:37:35 INFO [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor]: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-06-03 04:37:36 INFO [org.springframework.data.repository.config.RepositoryConfigurationDelegate]: Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-06-03 04:37:36 INFO [org.springframework.data.repository.config.RepositoryConfigurationDelegate]: Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-06-03 04:37:36 INFO [org.springframework.data.repository.config.RepositoryConfigurationDelegate]: Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+2023-06-03 04:37:38 INFO [org.springframework.boot.web.embedded.tomcat.TomcatWebServer]: Tomcat initialized with port(s): 8888 (http)
+2023-06-03 04:37:38 INFO [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext]: Root WebApplicationContext: initialization completed in 2663 ms
+2023-06-03 04:37:38 INFO [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer]: LiveReload server is running on port 35729
+2023-06-03 04:37:38 INFO [org.springframework.boot.web.embedded.tomcat.TomcatWebServer]: Tomcat started on port(s): 8888 (http) with context path ''
+2023-06-03 04:37:38 INFO [com.example.yin.ChingBeatsApplication]: Started ChingBeatsApplication in 3.819 seconds (JVM running for 5.031)
+2023-06-03 04:37:46 INFO [org.springframework.web.servlet.DispatcherServlet]: Initializing Servlet 'dispatcherServlet'
+2023-06-03 04:37:46 INFO [org.springframework.web.servlet.DispatcherServlet]: Completed initialization in 1 ms
+2023-06-03 04:37:46 INFO [com.zaxxer.hikari.HikariDataSource]: HikariPool-1 - Starting...
+2023-06-03 04:37:46 INFO [com.zaxxer.hikari.HikariDataSource]: HikariPool-1 - Start completed.
+2023-06-03 04:39:03 INFO [com.example.yin.ChingBeatsApplication]: Starting ChingBeatsApplication using Java 1.8.0_152 on LAPTOP-NIO7MIN1 with PID 17688 (E:\40000-Programming Space\46000-Git\chingbeats\chingbeats-server\target\classes started by ASUS in E:\40000-Programming Space\46000-Git\chingbeats)
+2023-06-03 04:39:03 INFO [com.example.yin.ChingBeatsApplication]: The following profiles are active: dev
+2023-06-03 04:39:03 INFO [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor]: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-06-03 04:39:03 INFO [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor]: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-06-03 04:39:04 INFO [org.springframework.data.repository.config.RepositoryConfigurationDelegate]: Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-06-03 04:39:04 INFO [org.springframework.data.repository.config.RepositoryConfigurationDelegate]: Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-06-03 04:39:04 INFO [org.springframework.data.repository.config.RepositoryConfigurationDelegate]: Finished Spring Data repository scanning in 15 ms. Found 0 Redis repository interfaces.
+2023-06-03 04:39:06 INFO [org.springframework.boot.web.embedded.tomcat.TomcatWebServer]: Tomcat initialized with port(s): 8888 (http)
+2023-06-03 04:39:06 INFO [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext]: Root WebApplicationContext: initialization completed in 2511 ms
+2023-06-03 04:39:07 INFO [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer]: LiveReload server is running on port 35729
+2023-06-03 04:39:07 INFO [org.springframework.boot.web.embedded.tomcat.TomcatWebServer]: Tomcat started on port(s): 8888 (http) with context path ''
+2023-06-03 04:39:07 INFO [com.example.yin.ChingBeatsApplication]: Started ChingBeatsApplication in 3.662 seconds (JVM running for 4.841)
+2023-06-03 04:39:12 INFO [org.springframework.web.servlet.DispatcherServlet]: Initializing Servlet 'dispatcherServlet'
+2023-06-03 04:39:12 INFO [org.springframework.web.servlet.DispatcherServlet]: Completed initialization in 1 ms
+2023-06-03 04:39:12 INFO [com.zaxxer.hikari.HikariDataSource]: HikariPool-1 - Starting...
+2023-06-03 04:39:12 INFO [com.zaxxer.hikari.HikariDataSource]: HikariPool-1 - Start completed.
+2023-06-03 04:39:56 INFO [com.example.yin.ChingBeatsApplication]: Starting ChingBeatsApplication using Java 1.8.0_152 on LAPTOP-NIO7MIN1 with PID 23236 (E:\40000-Programming Space\46000-Git\chingbeats\chingbeats-server\target\classes started by ASUS in E:\40000-Programming Space\46000-Git\chingbeats)
+2023-06-03 04:39:56 INFO [com.example.yin.ChingBeatsApplication]: The following profiles are active: dev
+2023-06-03 04:39:56 INFO [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor]: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-06-03 04:39:56 INFO [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor]: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-06-03 04:39:56 INFO [org.springframework.data.repository.config.RepositoryConfigurationDelegate]: Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-06-03 04:39:56 INFO [org.springframework.data.repository.config.RepositoryConfigurationDelegate]: Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-06-03 04:39:57 INFO [org.springframework.data.repository.config.RepositoryConfigurationDelegate]: Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+2023-06-03 04:39:58 INFO [org.springframework.boot.web.embedded.tomcat.TomcatWebServer]: Tomcat initialized with port(s): 8888 (http)
+2023-06-03 04:39:58 INFO [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext]: Root WebApplicationContext: initialization completed in 2561 ms
+2023-06-03 04:39:59 INFO [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer]: LiveReload server is running on port 35729
+2023-06-03 04:39:59 INFO [org.springframework.boot.web.embedded.tomcat.TomcatWebServer]: Tomcat started on port(s): 8888 (http) with context path ''
+2023-06-03 04:39:59 INFO [com.example.yin.ChingBeatsApplication]: Started ChingBeatsApplication in 3.75 seconds (JVM running for 4.971)
+2023-06-03 04:40:04 INFO [org.springframework.web.servlet.DispatcherServlet]: Initializing Servlet 'dispatcherServlet'
+2023-06-03 04:40:04 INFO [org.springframework.web.servlet.DispatcherServlet]: Completed initialization in 1 ms
+2023-06-03 04:40:05 INFO [com.zaxxer.hikari.HikariDataSource]: HikariPool-1 - Starting...
+2023-06-03 04:40:05 INFO [com.zaxxer.hikari.HikariDataSource]: HikariPool-1 - Start completed.
+2023-06-03 04:44:20 INFO [com.example.yin.ChingBeatsApplication]: Starting ChingBeatsApplication using Java 1.8.0_152 on LAPTOP-NIO7MIN1 with PID 7292 (E:\40000-Programming Space\46000-Git\chingbeats\chingbeats-server\target\classes started by ASUS in E:\40000-Programming Space\46000-Git\chingbeats)
+2023-06-03 04:44:20 INFO [com.example.yin.ChingBeatsApplication]: The following profiles are active: dev
+2023-06-03 04:44:20 INFO [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor]: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-06-03 04:44:20 INFO [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor]: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-06-03 04:44:21 INFO [org.springframework.data.repository.config.RepositoryConfigurationDelegate]: Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-06-03 04:44:21 INFO [org.springframework.data.repository.config.RepositoryConfigurationDelegate]: Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-06-03 04:44:21 INFO [org.springframework.data.repository.config.RepositoryConfigurationDelegate]: Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+2023-06-03 04:44:23 INFO [org.springframework.boot.web.embedded.tomcat.TomcatWebServer]: Tomcat initialized with port(s): 8888 (http)
+2023-06-03 04:44:23 INFO [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext]: Root WebApplicationContext: initialization completed in 2563 ms
+2023-06-03 04:44:23 INFO [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer]: LiveReload server is running on port 35729
+2023-06-03 04:44:23 INFO [org.springframework.boot.web.embedded.tomcat.TomcatWebServer]: Tomcat started on port(s): 8888 (http) with context path ''
+2023-06-03 04:44:23 INFO [com.example.yin.ChingBeatsApplication]: Started ChingBeatsApplication in 3.776 seconds (JVM running for 5.192)
+2023-06-03 04:44:33 INFO [org.springframework.web.servlet.DispatcherServlet]: Initializing Servlet 'dispatcherServlet'
+2023-06-03 04:44:33 INFO [org.springframework.web.servlet.DispatcherServlet]: Completed initialization in 1 ms
+2023-06-03 04:44:34 INFO [com.zaxxer.hikari.HikariDataSource]: HikariPool-1 - Starting...
+2023-06-03 04:44:34 INFO [com.zaxxer.hikari.HikariDataSource]: HikariPool-1 - Start completed.
+2023-06-03 04:58:20 INFO [com.example.yin.ChingBeatsApplication]: Starting ChingBeatsApplication using Java 1.8.0_152 on LAPTOP-NIO7MIN1 with PID 7440 (E:\40000-Programming Space\46000-Git\chingbeats\chingbeats-server\target\classes started by ASUS in E:\40000-Programming Space\46000-Git\chingbeats)
+2023-06-03 04:58:20 INFO [com.example.yin.ChingBeatsApplication]: The following profiles are active: dev
+2023-06-03 04:58:20 INFO [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor]: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-06-03 04:58:20 INFO [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor]: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-06-03 04:58:20 INFO [org.springframework.data.repository.config.RepositoryConfigurationDelegate]: Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-06-03 04:58:20 INFO [org.springframework.data.repository.config.RepositoryConfigurationDelegate]: Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-06-03 04:58:20 INFO [org.springframework.data.repository.config.RepositoryConfigurationDelegate]: Finished Spring Data repository scanning in 13 ms. Found 0 Redis repository interfaces.
+2023-06-03 04:58:22 INFO [org.springframework.boot.web.embedded.tomcat.TomcatWebServer]: Tomcat initialized with port(s): 8888 (http)
+2023-06-03 04:58:22 INFO [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext]: Root WebApplicationContext: initialization completed in 2710 ms
+2023-06-03 04:58:23 INFO [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer]: LiveReload server is running on port 35729
+2023-06-03 04:58:23 INFO [org.springframework.boot.web.embedded.tomcat.TomcatWebServer]: Tomcat started on port(s): 8888 (http) with context path ''
+2023-06-03 04:58:23 INFO [com.example.yin.ChingBeatsApplication]: Started ChingBeatsApplication in 3.931 seconds (JVM running for 5.129)

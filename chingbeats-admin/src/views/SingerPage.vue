@@ -171,15 +171,15 @@ export default defineComponent({
       }
     });
 
-    getData();
+    getData(currentPage.value);
 
-    async function getData() {
+    async function getData(currentPageVal) {
       tableData.value = [];
       tempDate.value = [];
       const result = (await HttpManager.getAllSinger()) as ResponseBody;
       tableData.value = result.data;
       tempDate.value = result.data;
-      currentPage.value = 1;
+      currentPage.value = currentPageVal;
     }
     // 获取当前页
     function handleCurrentChange(val) {
@@ -242,7 +242,7 @@ export default defineComponent({
       });
 
       if (result.success) {
-        getData();
+        getData(currentPage.value);
         registerForm.birth = new Date();
         registerForm.name = "";
         registerForm.sex = "";
@@ -293,7 +293,7 @@ export default defineComponent({
           type: result.type,
         });
 
-        if (result.success) getData();
+        if (result.success) getData(currentPage.value);
         editVisible.value = false;
       } catch (error) {
         console.error(error);
@@ -304,7 +304,7 @@ export default defineComponent({
         message: response.message,
         type: response.type,
       });
-      if (response.success) getData();
+      if (response.success) getData(currentPage.value);
     }
 
     /**
@@ -321,7 +321,7 @@ export default defineComponent({
         type: result.type,
       });
 
-      if (result.success) getData();
+      if (result.success) getData(currentPage.value);
       delVisible.value = false;
     }
     function deleteRow(id) {

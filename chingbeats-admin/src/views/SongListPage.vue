@@ -140,16 +140,16 @@ export default defineComponent({
       }
     });
 
-    getData();
+    getData(currentPage.value);
 
     // 获取歌单信息
-    async function getData() {
+    async function getData(currentPageVal) {
       tableData.value = [];
       tempDate.value = [];
       const result = (await HttpManager.getSongList()) as ResponseBody;
       tableData.value = result.data;
       tempDate.value = result.data;
-      currentPage.value = 1;
+      currentPage.value = currentPageVal;
     }
 
     // 获取当前页
@@ -167,7 +167,7 @@ export default defineComponent({
         message: response.message,
         type: response.type,
       });
-      if (response.success) getData();
+      if (response.success) getData(currentPage.value);
     }
 
     /**
@@ -224,7 +224,7 @@ export default defineComponent({
       });
 
       if (result.success) {
-        getData();
+        getData(currentPage.value);
         registerForm.title = "";
         registerForm.introduction = "";
         registerForm.style = "";
@@ -267,7 +267,7 @@ export default defineComponent({
         type: result.type,
       });
 
-      if (result.success) getData();
+      if (result.success) getData(currentPage.value);
       editVisible.value = false;
     }
 
@@ -284,7 +284,7 @@ export default defineComponent({
         message: result.message,
         type: result.type,
       });
-      if (result.success) getData();
+      if (result.success) getData(currentPage.value);
       delVisible.value = false;
     }
 

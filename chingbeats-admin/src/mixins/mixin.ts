@@ -41,7 +41,7 @@ export default function () {
   }
 
   function beforeSongUpload(file) {
-    const ltCode = 10;
+    const ltCode = 30;
     const isLt10M = file.size / 1024 / 1024 < ltCode;
     const testmsg = file.name.substring(file.name.lastIndexOf(".") + 1);
     const extension = testmsg === "mp3";
@@ -53,7 +53,7 @@ export default function () {
       });
     }
     if (!isLt10M) {
-      (proxy as any).$message.error(`上传头像图片大小不能超过 ${ltCode}MB!`);
+      (proxy as any).$message.error(`上传的音频文件大小不能超过 ${ltCode}MB!`);
     }
 
     return extension && isLt10M;

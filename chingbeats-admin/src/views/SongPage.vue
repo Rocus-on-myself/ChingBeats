@@ -174,16 +174,16 @@ export default defineComponent({
     singerId.value = proxy.$route.query.id as string;
     singerName.value = proxy.$route.query.name as string;
     proxy.$store.commit("setIsPlay", false);
-    getData();
+    getData(currentPage.value);
 
     // 获取歌曲
-    async function getData() {
+    async function getData(currentPageVal) {
       tableData.value = [];
       tempDate.value = [];
       const result = (await HttpManager.getSongOfSingerId(singerId.value)) as ResponseBody;
       tableData.value = result.data;
       tempDate.value = result.data;
-      currentPage.value = 1;
+      currentPage.value = currentPageVal;
     }
     function setSongUrl(row) {
       proxy.$store.commit("setUrl", row.url);
@@ -210,7 +210,7 @@ export default defineComponent({
         message: res.message,
         type: res.type,
       });
-      if (res.success) getData();
+      if (res.success) getData(currentPage.value);
     }
     // 更新图片
     function handleImgSuccess(res, file) {
@@ -218,7 +218,7 @@ export default defineComponent({
         message: res.message,
         type: res.type,
       });
-      if (res.success) getData();
+      if (res.success) getData(currentPage.value);
     }
 
     /**
@@ -273,7 +273,7 @@ export default defineComponent({
             type: res.type,
           });
           if (res.success) {
-            getData();
+            getData(currentPage.value);
             registerForm.name = "";
             registerForm.singerName = "";
             registerForm.introduction = "";
@@ -326,7 +326,7 @@ export default defineComponent({
         message: result.message,
         type: result.type,
       });
-      if (result.success) getData();
+      if (result.success) getData(currentPage.value);
       editVisible.value = false;
     }
 
@@ -343,7 +343,7 @@ export default defineComponent({
         message: result.message,
         type: result.type,
       });
-      if (result.success) getData();
+      if (result.success) getData(currentPage.value);
       delVisible.value = false;
     }
     function deleteRow(id) {
