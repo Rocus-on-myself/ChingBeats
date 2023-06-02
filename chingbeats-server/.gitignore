@@ -12,9 +12,9 @@
 target/
 .DS_Store
 #../img/
-../song/
+#../song/
 #img/
-song/
+#song/
 #logs/
 
 ### IntelliJ IDEA ###

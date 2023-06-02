@@ -66,9 +66,11 @@ export default defineComponent({
       if (!path && !name) {
         changeIndex(NavName.Home);
         routerManager(RouterName.Home, { path: RouterName.Home });
+        proxy.$store.commit("setActiveNavName", NavName.Home);
       } else {
         changeIndex(name);
         routerManager(path, { path });
+        proxy.$store.commit("setActiveNavName", name);
       }
     }
 

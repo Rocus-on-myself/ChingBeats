@@ -8,13 +8,13 @@
   <br/>
   <!--热门歌单-->
   <div class="play-list-card">
-    <play-list class="play-list-container" title="歌单" path="song-sheet-detail" :playList="songList"></play-list>
+    <play-list class="play-list-container" title="歌单" path="song-sheet-detail" route="/song-sheet" :playList="songList"></play-list>
   </div>
   <br/>
 <!--  <play-list class="play-list-container" title="歌单" path="song-sheet-detail" :playList="songList"></play-list>-->
   <!--热门歌手-->
   <div class="play-list-card">
-    <play-list class="play-list-container" title="歌手" path="singer-detail" :playList="singerList"></play-list>
+    <play-list class="play-list-container" title="歌手" path="singer-detail" route="/singer" :playList="singerList"></play-list>
   </div>
 
 </template>

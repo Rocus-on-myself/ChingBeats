@@ -151,7 +151,8 @@ export default defineComponent({
     padding: 30px 0;
     overflow: auto;
     border-radius: 12px;
-    background-color: $color-light-grey;
+    //background-color: $color-light-grey;
+    background-color: white;
     .has-lyric {
       position: absolute;
       transition: all 1s;

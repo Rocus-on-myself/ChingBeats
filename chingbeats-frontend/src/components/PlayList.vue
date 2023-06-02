@@ -1,6 +1,17 @@
 <template>
   <div class="play-list">
-    <div class="play-title" v-if="title">{{ title }}</div>
+    <el-row v-if="title">
+      <el-col :span="21">
+        <div class="play-title" v-if="title">{{ title }}</div>
+      </el-col>
+      <el-col :span="3">
+        <router-link :to="route">
+          <el-button class="more-music" type="text" @click="toPage">更多...</el-button>
+        </router-link>
+      </el-col>
+    </el-row>
+
+    <div class="depart-line" v-if="title"></div>
     <ul class="play-body">
       <li class="card-frame" v-for="(item, index) in playList" :key="index">
         <div class="card" @click="goAblum(item)">
@@ -31,22 +42,28 @@ export default defineComponent({
     title: String,
     playList: Array,
     path: String,
+    route: String,
   },
   setup(props) {
     const { proxy } = getCurrentInstance();
     const { routerManager } = mixin();
 
-    const { path } = toRefs(props);
+    const { path, title } = toRefs(props);
 
     function goAblum(item) {
       proxy.$store.commit("setSongDetails", item);
       routerManager(path.value, { path: `/${path.value}/${item.id}` });
     }
 
+    function toPage() {
+      proxy.$store.commit("setActiveNavName", title.value);
+    }
+
     return {
       BOFANG: Icon.BOFANG,
       goAblum,
       attachImageUrl: HttpManager.attachImageUrl,
+      toPage,
     };
   },
 });
@@ -60,7 +77,7 @@ export default defineComponent({
   padding: 0 1rem;
 
   .play-title {
-    height: 100px;
+    height: 80px;
     line-height: 100px;
     font-size: 28px;
     font-weight: 500;
@@ -138,5 +155,18 @@ export default defineComponent({
     width: 46%;
     margin: 0.5rem 2%;
   }
+}
+.depart-line {
+  height: 2px;
+  //background-color: #2aa3ef;
+  background-color: #5cceb4;
+  margin-bottom: 20px;
+}
+.more-music {
+  height: 50px;
+  line-height: 50px;
+  margin-top: 30px;
+  float: right;
+  color: #5cceb4;
 }
 </style>

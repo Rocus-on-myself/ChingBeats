@@ -16,6 +16,7 @@ export default {
       state.token = token;
     },
     setActiveNavName: (state, activeNavName) => {
+      console.log(activeNavName)
       state.activeNavName = activeNavName;
     },
     setShowAside: (state, showAside) => {
